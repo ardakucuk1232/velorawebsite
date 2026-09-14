@@ -1,0 +1,7 @@
+node_modules
+.next
+work
+data
+package-lock.json
+vendor
+drizzle/meta

@@ -1,0 +1,13 @@
+services:
+  velora:
+    build: .
+    ports:
+      - '127.0.0.1:3000:3000'
+    environment:
+      APP_URL: ${APP_URL:-http://localhost:3000}
+      DATABASE_PATH: /app/data/velora.sqlite
+    volumes:
+      - velora_data:/app/data
+    restart: unless-stopped
+volumes:
+  velora_data:

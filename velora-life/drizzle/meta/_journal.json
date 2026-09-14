@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1788866324557,
+      "tag": "0000_massive_jack_murdock",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1788868142149,
+      "tag": "0001_chilly_mole_man",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1788887964805,
+      "tag": "0002_awesome_trish_tilby",
+      "breakpoints": true
+    }
+  ]
+}

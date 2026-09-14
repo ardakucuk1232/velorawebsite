@@ -1,0 +1,1 @@
+ALTER TABLE `orders` ADD `stock_released` integer DEFAULT 0 NOT NULL;
