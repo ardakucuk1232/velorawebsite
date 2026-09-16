@@ -26,18 +26,6 @@ Yönetici oluşturma komutu sizden e-posta, ad soyad ve en az 12 karakterli şif
 
 Tarayıcıda http://localhost:3000 adresini açın. `/account` üzerinden yönetici hesabınızla giriş yapın, ardından `/admin` adresine gidin. İlk stokları **Ürünler & stok** bölümünden girin. Yeni veritabanında stoklar sıfırdır; stok girişi yapılan ürünler siparişe açılır.
 
-## macOS / Linux'ta kurulum
-
-```bash
-cp .env.example .env
-npm ci
-npm run db:migrate
-npm run admin:create
-npm run dev
-```
-
-Bu sürümde Bash'e bağlı kurulum betikleri yoktur; Node komutları platformlar arasında aynıdır. Windows adımlarında yalnızca dosya kopyalama komutu farklıdır.
-
 ### Docker alternatifi
 
 Docker yapılandırması pakete dahildir:
